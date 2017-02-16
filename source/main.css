@@ -8,6 +8,7 @@ html, body {
 #navContent{
 margin:auto;	
 width:800px;
+height:400px;
 position:relative;
 overflow:hidden;
 }
@@ -15,6 +16,7 @@ overflow:hidden;
 #game1{
 margin:auto;
 width:800px;
+height:400px;
 right:0px;
 position:absolute;
 }
@@ -22,6 +24,7 @@ position:absolute;
 #game2{
 margin:auto;	
 width:800px;
+height:400px;
 right:-800px;
 position:absolute;
 } 
