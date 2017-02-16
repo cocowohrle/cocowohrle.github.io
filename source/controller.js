@@ -22,12 +22,12 @@ var score=0;
 			questionBank[i][1]=data.quizlist[i].option1;
 			questionBank[i][2]=data.quizlist[i].option2;
 			questionBank[i][3]=data.quizlist[i].option3;
-		}
+		};
 		 numberOfQuestions=questionBank.length;
 		 alert(questionBank); 		
 		 
 		displayQuestion();
-		})//gtjson
+		});//gtjson
  
  
 
@@ -58,8 +58,8 @@ $(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</
    $(stage).append('<div class="feedback2">WRONG</div>');
   }
   setTimeout(function(){changeQuestion()},1000);
- }})
-}//display question
+ }});
+};//display question
 
 	
 	
@@ -77,7 +77,7 @@ $(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</
 	
 	 $(stage2).animate({"right": "+=800px"},"slow", function() {$(stage2).css('right','-1800px');$(stage2).empty();});
 	 $(stage).animate({"right": "+=800px"},"slow", function() {questionLock=false;});
-	}//change question
+	};//change question
 	
 
 	
@@ -86,7 +86,7 @@ $(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</
 		
 		$(stage).append('<div class="questionText">You have finished the quiz!<br><br>Total questions: '+numberOfQuestions+'<br>Correct answers: '+score+'</div>');
 		
-	}//display final slide
+	};//display final slide
 	
 	
 	
