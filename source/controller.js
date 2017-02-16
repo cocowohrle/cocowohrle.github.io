@@ -52,11 +52,11 @@ $(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</
   if(this.id==rnd){
    $(stage).append('<div class="feedback1">CORRECT</div>');
    score++;
-   }
+   };
   //wrong answer	
   if(this.id!=rnd){
    $(stage).append('<div class="feedback2">WRONG</div>');
-  }
+  };
   setTimeout(function(){changeQuestion()},1000);
  }});
 };//display question
