@@ -6,17 +6,17 @@ html, body {
 	    }
 
 #navContent{
-margin:auto;	
-width:800px;
-height:400px;
-position:relative;
-overflow:hidden;
+margin: auto;
+width: 800px;
+height: 800px;
+position: relative;
+overflow: hidden;
 }
 
 #game1{
 margin:auto;
 width:800px;
-height:400px;
+/*height:400px;*/
 right:0px;
 position:absolute;
 }
