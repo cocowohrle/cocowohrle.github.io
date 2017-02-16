@@ -23,8 +23,8 @@ var score=0;
 			questionBank[i][2]=data.quizlist[i].option2;
 			questionBank[i][3]=data.quizlist[i].option3;
 		}
-		 numberOfQuestions=questionBank.length; 
-		
+		 numberOfQuestions=questionBank.length;
+		 alert(questionBank); 		
 		 
 		displayQuestion();
 		})//gtjson
@@ -75,7 +75,7 @@ $(stage).append('<div class="questionText">'+questionBank[questionNumber][0]+'</
 	
 	if(questionNumber<numberOfQuestions){displayQuestion();}else{displayFinalSlide();}
 	
-	 $(stage2).animate({"right": "+=800px"},"slow", function() {$(stage2).css('right','-800px');$(stage2).empty();});
+	 $(stage2).animate({"right": "+=800px"},"slow", function() {$(stage2).css('right','-1800px');$(stage2).empty();});
 	 $(stage).animate({"right": "+=800px"},"slow", function() {questionLock=false;});
 	}//change question
 	
