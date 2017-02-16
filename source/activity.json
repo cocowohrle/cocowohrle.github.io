@@ -1,22 +1,22 @@
 {"quizlist":[
   
 	{
-	"question":"HI",
+	"question":"",
 	"option1":"E30 SPORTS EVOLUTION",
 	"option2":"E30 SERIES COUPE",
 	"option3":"E30 LIGHTWEIGHT"
 	},
 	{
-	"question":"What is the capital of Peru?",
-	"option1":"Lima",
-	"option2":"Bogota",
-	"option3":"San Juan"
+	"question":"",
+	"option1":"E30 CONVERTIBLE",
+	"option2":"E36 CONVERTIBLE",
+	"option3":"E46 SALOON"
 	},
 	{
-	"question":"Which country is long and thin?",
-	"option1":"Chile",
-	"option2":"Uruguay",
-	"option3":"Colombia"
+	"question":"",
+	"option1":"E30 COUPE",
+	"option2":"E36 SALOON",
+	"option3":"E30 SALOON"
 	}
 
 ]
