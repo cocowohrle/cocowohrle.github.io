@@ -1,0 +1,23 @@
+{"quizlist":[
+  
+	{
+	"question":"",
+	"option1":"hello",
+	"option2":"two",
+	"option3":"three"
+	},
+	{
+	"question":"What is the capital of Peru?",
+	"option1":"Lima",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"Which country is long and thin?",
+	"option1":"Chile",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+]
+}
