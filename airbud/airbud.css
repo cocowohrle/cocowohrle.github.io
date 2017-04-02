@@ -1,0 +1,33 @@
+body {
+    font-family: "Comic Sans MS";
+    margin: 0; 
+    background-color: #235DB2; 
+}
+
+#content-box-gray {
+margin: 0 0 0px;
+overflow: hidden;
+padding: 10px;
+height: auto;
+font-size: 105px;
+border-radius: 5px;
+border: 55px solid orange;
+color: #FFAD33;
+
+}
+
+li{
+	display: inline;
+}
+
+#smalltitle 
+{
+	margin: 0 0 0px;
+	overflow: hidden;
+	height: auto;
+	font-size: 50px;
+	border-radius: 5px;
+	color: red
+
+
+}
