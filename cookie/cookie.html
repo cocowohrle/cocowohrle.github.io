@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Input/Output</title>
+<link rel="stylesheet" type="text/css" href="cookie.css">
+        <style>
+            html, body { 
+                width: 100%;
+                height: 100%;
+            }
+
+            #box {
+                background: url("chocolatechip.png");
+                height: 200px;
+                width: 200px;
+                position: absolute;
+                border-radius: 8px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- <input id="textInput" placeholder="Type size here!"/> -->
+
+        <div id="box"></div>
+
+        <script>
+            window.addEventListener("click", function(e) {
+    
+                var box = document.getElementById("box");
+                box.style.top = e.clientY + 10 + "px";
+                box.style.left = e.clientX + 10 + "px";
+            });
+
+            window.addEventListener("onclick", function(e) {
+                var height = Math.round(e.target.innerHeight / 2);
+                var width = Math.round(e.target.innerWidth / 2);
+                console.log(height, width);
+
+                document.body.style.backgroundColor = "rgb(" + height + "," + width + ", 255)";
+            });
+
+            document.getElementById("textInput").addEventListener("input", function(e) {
+                // Put the text inside the box
+
+            
+                var box = document.getElementById("box");
+                var text = e.target.value;
+
+                box.innerHTML = text;
+            });
+        </script>
+    </body>
+</html>
